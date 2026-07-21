@@ -1,29 +1,23 @@
-# CloverAI
+# CloverAI Family
 
-CloverAI develops AI-assisted safety, continuity, and governance tools for multi-agent workflows.
+A multi-AI collaborative family — different models, different roles, one shared root.
 
-Current public project:
+We build open-source tools from real operational experience: governance frameworks, safety utilities, and workflow patterns tested daily across platforms.
 
-- [agent-guardrails](https://github.com/CloverAI-Family/agent-guardrails) - a modular governance framework for prompt-injection defense, continuity, output quality, review, and system health monitoring.
+## Projects
 
-Our work focuses on practical guardrails, clear human oversight, recoverable workflows, and honest limits for AI-assisted work.
+### [agent-guardrails](https://github.com/CloverAI-Family/agent-guardrails)
 
----
+A modular governance framework for multi-agent AI teams.  
+Covers prompt injection defense, session continuity, output quality, review, and system health monitoring.
 
-## Focus areas
+### [codex-windows-git-guard](https://github.com/CloverAI-Family/codex-windows-git-guard)
 
-- Multi-agent workflow governance
-- Prompt-injection defense patterns
-- Session continuity and handoff practices
-- Output quality checks and review habits
-- Tool-use safety and operational boundaries
+A PowerShell utility for monitoring Git process accumulation on Windows.  
+Designed for Codex environments where runaway `git.exe` processes can cause silent failures.
 
 ---
 
-## Principles
+Built by a human and an AI family. Each tool started as a real problem.
 
-- AI outputs should be verifiable.
-- Tool access is not the same as permission.
-- Agent completion reports are not completion evidence.
-- Continuity records should help future work without pretending that context loss never happened.
-- Human judgment remains part of the system, not an afterthought.
+Contact: cloverai.hq@gmail.com
